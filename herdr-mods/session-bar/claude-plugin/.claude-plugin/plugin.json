@@ -1,0 +1,14 @@
+{
+  "name": "session-bar",
+  "version": "0.2.0",
+  "description": "Claude Code's half of Herdr's session-bar: sends model, effort, context window and usage to the bar",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "promptLine": {
+      "type": "boolean",
+      "title": "Line under the prompt",
+      "description": "Also draw the meters, model and branch in one line under Claude's prompt, outside Herdr",
+      "default": false
+    }
+  }
+}
